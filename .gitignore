@@ -1,0 +1,11 @@
+# wmake build artifacts
+Make/linux*
+Make/darwin*
+lnInclude/
+*.o
+*.dep
+
+# editor/OS cruft
+.vscode/ipch/
+*.swp
+.DS_Store

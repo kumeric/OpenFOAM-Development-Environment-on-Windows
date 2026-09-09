@@ -1,6 +1,14 @@
 {
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
     "C_Cpp.intelliSenseEngine": "Tag Parser",
+
     "files.associations": {
-        "Test-List.C": "cpp"
-    }
+        "*.C": "cpp",                 // recognize source files as C++
+        "*.H": "cpp",                 // recognize header files as C++
+        "**/0/*": "OpenFOAM",         // field files in 0/, e.g. U, p
+        "**/0.orig/*": "OpenFOAM",
+        "**/system/*": "OpenFOAM",    // dictionaries under system/
+        "**/constant/*": "OpenFOAM",  // dictionaries under constant/
+        "*Dict": "OpenFOAM"           // any file ending in "Dict"
+    },
 }
